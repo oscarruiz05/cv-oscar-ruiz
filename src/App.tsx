@@ -1,11 +1,15 @@
-import './App.css'
+import "./App.css";
+import Header from "@/components/Header";
 
 function App() {
   return (
     <>
-      <h1 className='text-pretty'>huasfksjfk</h1>
+      <Header />
+      <div className="container mx-auto">
+        <h1 className="text-pretty">huasfksjfk</h1>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
